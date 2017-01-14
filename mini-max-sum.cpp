@@ -40,7 +40,9 @@ int main() {
 
         if(sum > max){
             max = sum;
-        }else if(sum < min){
+        }
+
+        if(sum < min){
             min = sum;
         }
     }
